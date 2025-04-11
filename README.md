@@ -22,6 +22,13 @@ It demonstrates how to build a robust, production-ready pipeline, following indu
 
 ## 🛤️ Pipeline Flow
 
+
+![alt](assets/image.png)
+
+
+![alt](assets/11.png)
+
+
 The project ingests structured data from two primary sources: a PostgreSQL transactional database and CSV files.
 
 1. **Source Data Ingestion**:  
@@ -74,11 +81,22 @@ airflow_project/
 ├── requirements.txt            # Python dependencies
 ├── airflow_settings.yaml       # Astro project settings
 └── README.md                   # This file
+```
+## Data Modelling 
+The DWH is designed to be a denormaized DWH star Schema
 
 
 
+## Data Validation automated reports you can access live on:
+![alt](assets/frame.png)
+
+## Altering and Monitoring 
+We Used Slack Webhooks to send automated notifications if tasks failed
+
+![alt](assets/44.png)
 
 ---
+
 
 ## Technologies Used
 
@@ -87,8 +105,9 @@ airflow_project/
 | Airflow | Task scheduling and orchestration |
 | PySpark | Distributed data processing and ETL |
 | S3 | Cloud storage for landing/processed data |
+| AWS Lambda | Loading data automatically into redshift |
 | Redshift | Data warehouse for analytics and reporting |
-| Great Expectations | Data validation and documentation |
+| Great Expectations | Data validation, documentation and reports |
 | Slack | Real-time failure alerts |
 | Astro CLI | Simplified local Airflow development |
 
