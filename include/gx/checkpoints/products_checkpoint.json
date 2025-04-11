@@ -1,0 +1,12 @@
+{
+  "actions": [],
+  "id": "74458775-9cca-4adf-a85c-da43b6d48da5",
+  "name": "products_checkpoint",
+  "result_format": "SUMMARY",
+  "validation_definitions": [
+    {
+      "id": "ad39572b-bd74-49e5-ac52-dd61d3af567a",
+      "name": "products_validation"
+    }
+  ]
+}

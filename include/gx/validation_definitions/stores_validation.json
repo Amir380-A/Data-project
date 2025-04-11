@@ -1,0 +1,22 @@
+{
+  "data": {
+    "asset": {
+      "id": "119bbaad-07d1-461b-847c-c3cb1875d5fd",
+      "name": "stores_asset"
+    },
+    "batch_definition": {
+      "id": "ea6b8849-dbe1-4a20-ac24-66e9cceef983",
+      "name": "batch_stores"
+    },
+    "datasource": {
+      "id": "92d6c6e9-3521-449d-8ebc-c91f08eac5de",
+      "name": "pandas"
+    }
+  },
+  "id": "297e4eda-8b39-48da-a353-0084627f6462",
+  "name": "stores_validation",
+  "suite": {
+    "id": "bc26dfd9-87c4-4b1f-b1fb-c12dee8e3c2c",
+    "name": "stores_suite"
+  }
+}

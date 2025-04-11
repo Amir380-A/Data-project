@@ -1,0 +1,12 @@
+{
+  "actions": [],
+  "id": "2e4c41e0-9f27-43aa-8be2-9fadc17d93b5",
+  "name": "employees_checkpoint",
+  "result_format": "SUMMARY",
+  "validation_definitions": [
+    {
+      "id": "357e517c-96d4-44ba-aeb9-b513039af7a2",
+      "name": "employees_validation"
+    }
+  ]
+}

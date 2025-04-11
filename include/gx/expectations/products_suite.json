@@ -1,0 +1,83 @@
+{
+  "expectations": [
+    {
+      "id": "00b4a525-4f70-4864-a34f-b9c8e50b86c8",
+      "kwargs": {
+        "column": "productid_pk_bk"
+      },
+      "meta": {},
+      "type": "expect_column_values_to_not_be_null"
+    },
+    {
+      "id": "9a4045c8-48d3-4862-8214-b56b3ae500e3",
+      "kwargs": {
+        "column": "category"
+      },
+      "meta": {},
+      "type": "expect_column_values_to_not_be_null"
+    },
+    {
+      "id": "2921f012-295f-4024-b749-860d6aaacff1",
+      "kwargs": {
+        "column": "productid_pk_bk"
+      },
+      "meta": {},
+      "type": "expect_column_values_to_be_unique"
+    },
+    {
+      "id": "1dbf334b-018b-4252-8773-feb653a41194",
+      "kwargs": {
+        "column": "description_en",
+        "type_": "str"
+      },
+      "meta": {},
+      "type": "expect_column_values_to_be_of_type"
+    },
+    {
+      "id": "721d2371-03be-43c6-9175-f32102461698",
+      "kwargs": {
+        "column": "description_en"
+      },
+      "meta": {},
+      "type": "expect_column_values_to_be_unique"
+    },
+    {
+      "id": "99b401c3-dd00-4e64-81c6-e449d6d2d0be",
+      "kwargs": {
+        "column": "production_cost",
+        "type_": "float64"
+      },
+      "meta": {},
+      "type": "expect_column_values_to_be_of_type"
+    },
+    {
+      "id": "657d9359-8295-444a-849d-a7ed4a383d5f",
+      "kwargs": {
+        "column": "unit_price",
+        "type_": "float64"
+      },
+      "meta": {},
+      "type": "expect_column_values_to_be_of_type"
+    },
+    {
+      "id": "93c126af-cc2d-4a01-b7cd-89cba2d75cab",
+      "kwargs": {
+        "column": "currency",
+        "value_set": [
+          "USD",
+          "EUR",
+          "GBP",
+          "CNY"
+        ]
+      },
+      "meta": {},
+      "type": "expect_column_values_to_be_in_set"
+    }
+  ],
+  "id": "a7af292e-801d-491c-ae55-e9edde46632f",
+  "meta": {
+    "great_expectations_version": "1.3.11"
+  },
+  "name": "products_suite",
+  "notes": null
+}

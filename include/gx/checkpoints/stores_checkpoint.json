@@ -1,0 +1,12 @@
+{
+  "actions": [],
+  "id": "bfabfd26-3bd3-4c4c-811a-eeb580f65d20",
+  "name": "stores_checkpoint",
+  "result_format": "SUMMARY",
+  "validation_definitions": [
+    {
+      "id": "297e4eda-8b39-48da-a353-0084627f6462",
+      "name": "stores_validation"
+    }
+  ]
+}

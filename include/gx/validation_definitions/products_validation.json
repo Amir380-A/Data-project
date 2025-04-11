@@ -1,0 +1,22 @@
+{
+  "data": {
+    "asset": {
+      "id": "5ad71ad6-db13-4df6-be7e-88440dc0c03e",
+      "name": "products_asset"
+    },
+    "batch_definition": {
+      "id": "bdb51449-ee53-4afc-aa97-bc6980b403ba",
+      "name": "batch_products"
+    },
+    "datasource": {
+      "id": "92d6c6e9-3521-449d-8ebc-c91f08eac5de",
+      "name": "pandas"
+    }
+  },
+  "id": "ad39572b-bd74-49e5-ac52-dd61d3af567a",
+  "name": "products_validation",
+  "suite": {
+    "id": "a7af292e-801d-491c-ae55-e9edde46632f",
+    "name": "products_suite"
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "expectations": [
+    {
+      "id": "4ab26705-f9c7-4a08-ae2f-10775cd13d18",
+      "kwargs": {
+        "column": "customerid_pk_bk"
+      },
+      "meta": {},
+      "type": "expect_column_values_to_not_be_null"
+    },
+    {
+      "id": "81197a0d-7b4a-4d33-ba46-8c428e450dd8",
+      "kwargs": {
+        "column": "name"
+      },
+      "meta": {},
+      "type": "expect_column_values_to_not_be_null"
+    },
+    {
+      "id": "ade64aab-92b3-4da3-8db2-a2b4210a2472",
+      "kwargs": {
+        "column": "customerid_pk_bk"
+      },
+      "meta": {},
+      "type": "expect_column_values_to_be_unique"
+    },
+    {
+      "id": "f57382a3-0deb-491d-a61b-b84ed657a969",
+      "kwargs": {
+        "column": "email"
+      },
+      "meta": {},
+      "type": "expect_column_values_to_not_be_null"
+    },
+    {
+      "id": "233537a7-b026-4d3a-9b0f-885e46e46078",
+      "kwargs": {
+        "column": "country"
+      },
+      "meta": {},
+      "type": "expect_column_values_to_not_be_null"
+    },
+    {
+      "id": "4d85e660-8ba4-4a7b-827d-8a733d6fac9a",
+      "kwargs": {
+        "column": "email"
+      },
+      "meta": {},
+      "type": "expect_column_values_to_be_unique"
+    },
+    {
+      "id": "34d4bb52-a36a-498e-b58b-e287df7578f4",
+      "kwargs": {
+        "column": "telephone",
+        "regex": "^\\+?\\d{1,15}$"
+      },
+      "meta": {},
+      "type": "expect_column_values_to_match_regex"
+    },
+    {
+      "id": "ed5a646f-5ecc-400b-a0ca-26c1fe26efd3",
+      "kwargs": {
+        "column": "gender",
+        "value_set": [
+          "M",
+          "F"
+        ]
+      },
+      "meta": {},
+      "type": "expect_column_values_to_be_in_set"
+    }
+  ],
+  "id": "cdff7342-2add-47d2-a88c-1939893fc235",
+  "meta": {
+    "great_expectations_version": "1.3.11"
+  },
+  "name": "customer_suite",
+  "notes": null
+}

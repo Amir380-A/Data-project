@@ -1,0 +1,52 @@
+{
+  "expectations": [
+    {
+      "id": "ee6022b6-e3cf-4ea7-a802-76b3cdfda8ce",
+      "kwargs": {
+        "column": "employeeid_pk_bk"
+      },
+      "meta": {},
+      "type": "expect_column_values_to_not_be_null"
+    },
+    {
+      "id": "d651e956-541b-47f9-931c-efdf87e18dcc",
+      "kwargs": {
+        "column": "name"
+      },
+      "meta": {},
+      "type": "expect_column_values_to_not_be_null"
+    },
+    {
+      "id": "cc09592f-b27b-401d-b5f9-85efc87b4897",
+      "kwargs": {
+        "column": "position"
+      },
+      "meta": {},
+      "type": "expect_column_values_to_not_be_null"
+    },
+    {
+      "id": "cf51b2c4-2d14-4d97-a141-c9e29cbb86f0",
+      "kwargs": {
+        "column": "name",
+        "type_": "str"
+      },
+      "meta": {},
+      "type": "expect_column_values_to_be_of_type"
+    },
+    {
+      "id": "8422bbca-455c-4237-ba04-4522b6ce6931",
+      "kwargs": {
+        "column": "position",
+        "type_": "str"
+      },
+      "meta": {},
+      "type": "expect_column_values_to_be_of_type"
+    }
+  ],
+  "id": "3678e5b3-7275-4f3a-a231-e25ff216693d",
+  "meta": {
+    "great_expectations_version": "1.3.11"
+  },
+  "name": "employees_suite",
+  "notes": null
+}
