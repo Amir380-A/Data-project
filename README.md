@@ -192,9 +192,6 @@ OR you can use airflow normally by
 
 - Automate schema evolution using AWS Glue Schema Registry.
 - Add streaming ingestion using Kafka and Spark Structured Streaming.
-- Set up CI/CD pipelines for DAG deployment.
-- Add dbt for warehouse transformations.
-
 ---
 
 ## References
