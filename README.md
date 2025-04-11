@@ -85,7 +85,7 @@ airflow_project/
 ## Data Modelling 
 The DWH is designed to be a denormaized DWH star Schema
 The diagram:
-![alt](assets/dwh.png)
+![alt](assets/dwh.jpg)
 
 
 ## Data Validation automated reports you can access live on:
