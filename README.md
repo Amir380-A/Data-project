@@ -91,11 +91,16 @@ The diagram:
 ## Data Validation automated reports you can access live on:
 ![alt](assets/frame.png)
 
+![alt](assets/valid.png)
+
 ## Altering and Monitoring 
 We Used Slack Webhooks to send automated notifications if tasks failed
 
 ![alt](assets/44.png)
 
+## Data Visualization, Dashboard:
+![alt](assets/vis.png)
+![alt](assets/vis1.png)
 ---
 
 
@@ -111,6 +116,8 @@ We Used Slack Webhooks to send automated notifications if tasks failed
 | Great Expectations | Data validation, documentation and reports |
 | Slack | Real-time failure alerts |
 | Astro CLI | Simplified local Airflow development |
+| Power BI | Visualization |
+
 
 ---
 
