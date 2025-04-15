@@ -1,5 +1,9 @@
 # 🛠️ DE Project: End-to-End Data Engineering Pipeline
 
+## Problem description
+We are a leading international fashion retailer committed to delivering trendy, affordable styles to customers around the world. 
+With a strong presence across 7 countries and more than 35 stores, our brand is recognized for blending fashion-forward collections with an exceptional shopping experience.
+we had multiple source data from our main transactional database system to other third party transactions, we had to make a fully orchestrated data pipeline to move data from the sources to visualization for the benefit and consumption of business users.
 ## 🚀 Overview
 
 This project focuses on building a **complete Data Engineering (DE) pipeline**, starting from raw source data ingestion, through ETL (Extract, Transform, Load) processing, **data modeling** into a data warehouse, and finally **visualization** and reporting.
